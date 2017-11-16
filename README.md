@@ -27,6 +27,7 @@ v"correct!"<!
 ## Instructions
 
 Write a Befunge-93 interpreter `createBefungeApplication` in JavaScript that will, given an initial string of Befunge source code, return a function that will run the Befunge code every time it is called, with the parameters acting as the program's input.
+- Keep in mind that Befunge applications can modify their own source code, which is persistent between successive program executions.
 
 ```
 function createBefungeApplication(originalSourceCode){ /* ... */ }
